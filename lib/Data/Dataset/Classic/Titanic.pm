@@ -51,7 +51,7 @@ sub as_file {
 
 Return the Titanic data as an array.
 
-These headers are not included in the returned data.  See the C<headers> function.
+The headers are not included in the returned data.  See the C<headers> function.
 
 =cut
 
