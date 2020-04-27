@@ -1,0 +1,7 @@
+Revision history for Data-Dataset-Classic-Titanic
+
+{{$NEXT}}
+    - Mint with Dist::Zilla.
+    - Track down the Titanic data.
+    - Make functions to return the data in different ways.
+    - Make tests!
