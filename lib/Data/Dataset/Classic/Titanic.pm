@@ -168,6 +168,8 @@ __END__
 
 =head1 SEE ALSO
 
+L<https://en.wikipedia.org/wiki/RMS_Titanic>
+
 L<https://github.com/datasciencedojo/datasets/blob/master/titanic.csv>
 
 L<Data::Dataset::Classic::Iris>
