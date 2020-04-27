@@ -105,12 +105,15 @@ sub as_hash {
 
     while (my $row = $csv->getline($fh)) {
         $counter++;
+
+        # If we are on the first row, grab the headers and skip the row
         if ($counter == 1) {
             push @headers, @$row;
             @data{@headers} = undef;
             next;
         }
 
+        # Add each row item to the growing header lists
         for my $i (0 .. @headers - 1) {
             push @{ $data{ $headers[$i] } }, $row->[$i];
         }
