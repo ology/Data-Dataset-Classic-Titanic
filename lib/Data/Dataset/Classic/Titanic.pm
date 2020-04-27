@@ -1,6 +1,6 @@
 package Data::Dataset::Classic::Titanic;
 
-# ABSTRACT: Provide the classic titanic survivor dataset
+# ABSTRACT: Provide the classic Titanic survivor dataset
 
 our $VERSION = '0.0100';
 
@@ -25,7 +25,7 @@ use File::ShareDir qw(dist_dir);
 =head1 DESCRIPTION
 
 C<Data::Dataset::Classic::Titanic> provides access to the classic
-titanic survivor dataset.
+Titanic survivor dataset.
 
 =cut
 
