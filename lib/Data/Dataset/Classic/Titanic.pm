@@ -41,7 +41,8 @@ Return the Titanic data filename location.
 
 sub as_file {
     my $file = eval { dist_dir('Data-Dataset-Classic-Titanic') . '/titanic.csv' };
-    $file ||= 'share/titanic.csv';
+    $file = 'share/titanic.csv'
+        unless $file && -e $file;
     return $file;
 }
 
