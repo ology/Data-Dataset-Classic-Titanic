@@ -2,7 +2,7 @@ package Data::Dataset::Classic::Titanic;
 
 # ABSTRACT: Provide the classic Titanic survivor dataset
 
-our $VERSION = '0.0100';
+our $VERSION = '0.0101';
 
 use strict;
 use warnings;
