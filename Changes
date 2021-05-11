@@ -1,6 +1,7 @@
 Revision history for Data-Dataset-Classic-Titanic
 
 {{$NEXT}}
+    - Fix typo.
 
 0.0102 2020-05-16 16:07:52
     - Remove unneeded "or die" code.
