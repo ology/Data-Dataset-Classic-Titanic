@@ -81,7 +81,7 @@ sub as_list {
 
 =head2 as_hash
 
-  $data = Data::Dataset::Classic::Titanic::as_hash();
+  %data = Data::Dataset::Classic::Titanic::as_hash();
 
 Return the Titanic data as a hash.
 
