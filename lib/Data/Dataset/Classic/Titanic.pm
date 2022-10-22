@@ -2,12 +2,12 @@ package Data::Dataset::Classic::Titanic;
 
 # ABSTRACT: Provide the classic Titanic survivor dataset
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use strict;
 use warnings;
 
-use Text::CSV_XS;
+use Text::CSV_XS ();
 use File::ShareDir qw(dist_dir);
 
 =head1 SYNOPSIS
